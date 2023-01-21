@@ -1,0 +1,24 @@
+<svg id="Gruppe_86" data-name="Gruppe 86" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364.935" height="68.518" viewBox="0 0 364.935 68.518">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_63" data-name="Rechteck 63" width="364.935" height="68.518" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_83" data-name="Gruppe 83" transform="translate(0 0)">
+    <g id="Gruppe_82" data-name="Gruppe 82" clip-path="url(#clip-path)">
+      <text id="freistile_design" data-name="freistile design" transform="translate(81.762 45.464)" fill="#333" font-size="36" font-family="Poppins-ExtraBold, Poppins" font-weight="800"><tspan x="0" y="0">freistile design</tspan></text>
+    </g>
+  </g>
+  <path id="Pfad_67" data-name="Pfad 67" d="M2.039,2.04H62.591V62.591H2.039ZM0,64.632H64.631V0H0Z" fill="#333"/>
+  <rect id="Rechteck_64" data-name="Rechteck 64" width="2.04" height="43.776" transform="translate(5.694 28.102) rotate(-45)" fill="#333"/>
+  <g id="Gruppe_85" data-name="Gruppe 85" transform="translate(0 0)">
+    <g id="Gruppe_84" data-name="Gruppe 84" clip-path="url(#clip-path)">
+      <path id="Pfad_68" data-name="Pfad 68" d="M6.138,34a2.3,2.3,0,1,1,0,3.258,2.3,2.3,0,0,1,0-3.258" transform="translate(-1.352 -8.245)" fill="#333"/>
+      <path id="Pfad_69" data-name="Pfad 69" d="M47.269,75.127a2.3,2.3,0,1,1,0,3.258,2.3,2.3,0,0,1,0-3.258" transform="translate(-11.528 -18.421)" fill="#333"/>
+      <rect id="Rechteck_65" data-name="Rechteck 65" width="4.336" height="4.336" transform="translate(18.827 42.858) rotate(-45)" fill="#333"/>
+      <path id="Pfad_70" data-name="Pfad 70" d="M70.606,7.479H62.02L56.4,13.1,67.336,24.036l5.621-5.621V7.479Z" transform="translate(-13.954 -1.851)" fill="#333"/>
+      <path id="Pfad_71" data-name="Pfad 71" d="M54.683,21.584l-5.432-5.432-12.38,6.97-5.993,21.2,8.993-8.993A2.158,2.158,0,1,1,40.942,36.4l-8.993,8.993,21.2-5.993,6.97-12.379Z" transform="translate(-7.64 -3.996)" fill="#333"/>
+    </g>
+  </g>
+</svg>
+

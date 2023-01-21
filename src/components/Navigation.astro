@@ -1,0 +1,43 @@
+<section class="kw-content kw-padding-24">
+  <nav class="kw-main-nav">
+    <img
+      src="/images/freistile-logo.svg"
+      alt="freistile-logo"
+      class="kw-image"
+    />
+
+    <div class="kw-bar">
+      <button
+        id="menu-button"
+        class="kw-button kw-block kw-hide-medium kw-hide-large">&#9776;</button
+      >
+      <div id="menu" class="kw-hide-nav kw-animate-top kw-white">
+        <a href="#start" class="kw-bar-item kw-mobile kw-button">Start</a>
+        <a href="#portfolio" class="kw-bar-item kw-mobile kw-button"
+          >Portfolio</a
+        >
+        <a href="#uebermich" class="kw-bar-item kw-mobile kw-button"
+          >Über mich</a
+        >
+        <a href="#leistungen" class="kw-bar-item kw-mobile kw-button"
+          >Leistungen</a
+        >
+        <a href="#kontakt" class="kw-bar-item kw-mobile kw-button">Kontakt</a>
+      </div>
+    </div>
+  </nav>
+</section>
+<script>
+  const menu = document.getElementById('menu');
+  const menuBtn = document.getElementById('menu-button');
+  menuBtn.addEventListener('click', function () {
+    menu.classList.toggle('kw-show');
+  });
+  const navLinks = document.querySelectorAll('#menu a');
+  navLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      navLinks.forEach((link) => link.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+</script>

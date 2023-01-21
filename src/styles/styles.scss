@@ -1,2 +1,16 @@
 @import 'fonts';
 @import 'reset';
+@import 'navigation';
+
+html {
+  font-weight: 500;
+}
+
+.kw-content {
+  max-width: 80%;
+}
+@media (min-width: 1707px) {
+  .kw-content {
+    max-width: 1366px;
+  }
+}
