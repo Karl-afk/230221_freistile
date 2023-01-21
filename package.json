@@ -11,6 +11,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.9.0"
+    "astro": "^1.9.0",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14"
+  },
+  "devDependencies": {
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-standard": "^29.0.0"
   }
 }
