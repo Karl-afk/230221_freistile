@@ -1,6 +1,7 @@
 @import 'fonts';
 @import 'reset';
 @import 'navigation';
+@import 'header';
 
 html {
   font-weight: 500;
@@ -8,6 +9,9 @@ html {
 
 .kw-content {
   max-width: 80%;
+}
+.kw-bold-800 {
+  font-weight: 800;
 }
 @media (min-width: 1707px) {
   .kw-content {

@@ -1,0 +1,42 @@
+header {
+  position: relative;
+}
+.kw-headline {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  background-image: url('/images/headline-pattern.png');
+  background-repeat: no-repeat;
+  background-size: 240px;
+  background-position: center 40px;
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+    background-position: center 56px;
+    background-size: 335px;
+  }
+}
+@media (min-width: 1230px) {
+  header {
+    max-width: 970px !important;
+    padding-bottom: 80px;
+  }
+  .kw-header-element {
+    width: 310px;
+    height: 255px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .kw-headline {
+    text-transform: uppercase;
+    background-image: url('/images/headline-pattern@2x.png');
+  }
+}
