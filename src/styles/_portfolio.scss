@@ -1,0 +1,19 @@
+.kw-portfolio {
+  button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(200, 200, 200);
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: transparent !important;
+      border: 1px solid #333 !important;
+      color: #333 !important;
+    }
+  }
+}
+.active-btn {
+  border-color: #333 !important;
+  color: #333 !important;
+}

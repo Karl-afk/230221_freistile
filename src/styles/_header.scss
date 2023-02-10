@@ -15,7 +15,11 @@ header {
   }
 }
 @media (min-width: 1230px) {
-  header {
+  // header {
+  //   max-width: 970px !important;
+  //   padding-bottom: 80px;
+  // }
+  .kw-content--header {
     max-width: 970px !important;
     padding-bottom: 80px;
   }
@@ -26,7 +30,7 @@ header {
     border-right: 1px solid #000000;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 8px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
