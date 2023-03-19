@@ -1,0 +1,27 @@
+---
+import ToolComponent from './ToolComponent.astro';
+
+const tools = [
+  { tool: 'Adobe InDesign', amount: 80 },
+  { tool: 'Adobe Illustrator', amount: 90 },
+  { tool: 'Adobe Photoshop', amount: 70 },
+  { tool: 'Adobe XD', amount: 70 },
+  { tool: 'Procreate', amount: 40 },
+];
+---
+
+<section class="kw-content kw-margin-top-32 kw-tools">
+  <div class="kw-padding">
+    <h2 class="kw-headline kw-heading kw-margin-bottom-32">
+      Tools, mit denen ich Arbeite<img
+        class="kw-headline-background kw-image"
+        src="/images/headline-pattern.png"
+      />
+    </h2>
+    {
+      tools.map((tool) => (
+        <ToolComponent amount={tool.amount} tool={tool.tool} />
+      ))
+    }
+  </div>
+</section>
