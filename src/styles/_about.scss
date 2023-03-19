@@ -1,0 +1,26 @@
+.kw-about h2 {
+  position: relative;
+}
+.kw-about h2::before {
+  content: '';
+  border-top: 2px solid #000;
+  width: 50%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.kw-about .kw-headline-background {
+  right: -3%;
+  z-index: -10;
+  width: 50%;
+  height: 100%;
+}
+.kw-about p {
+  padding-left: 8px;
+  padding-top: 16px;
+  font-weight: 400;
+}
+.kw-about-text-block {
+  padding-left: 16px;
+}
